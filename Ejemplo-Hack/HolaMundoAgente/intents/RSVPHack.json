@@ -1,0 +1,150 @@
+{
+  "id": "36a65b5e-4303-4983-b411-5867394d98bc",
+  "name": "RSVPHack",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a47433e7-49b6-4710-8bea-bc6ae2d40015",
+          "required": false,
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e72375ce-43f8-45e2-8b0c-b3184deac9f0",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Claro, para comenzar tu registro, ¿Podrías proporcionarme tu nombre por favor?"
+            },
+            {
+              "lang": "es",
+              "value": "Muy bien ¿Cual es tu nombre?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8d661b75-2405-469c-8fea-6d520ab8e145",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Muy bien ¿Cuantas personas hay en el equipo?"
+            },
+            {
+              "lang": "es",
+              "value": "Okey ¿Cuantos Integrantes tiene tu equipo?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "01367c37-b3b5-47c7-91ad-ec46462149f2",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Excelente ¿A que dirección de correo electrónico debo mandar tus boletos?"
+            },
+            {
+              "lang": "es",
+              "value": "¿A que dirección de correo te mando tus boletos"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b8a62d59-22b2-448d-b5b4-93caf914f166",
+          "required": true,
+          "dataType": "@ty-of-hacker",
+          "name": "ty-of-hacker",
+          "value": "$ty-of-hacker",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Como describes a los integrantes de tu equipo?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "acbf4277-b74d-41fe-a8e1-030ec5d8f68d",
+          "required": true,
+          "dataType": "@first-time",
+          "name": "first-time",
+          "value": "$first-time",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Genial ¿Es tu primer hackathon?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Has ido a un hackathon antes?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Gracias, tu registro se ha realizado con éxito. Nos vemos en el Hank"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

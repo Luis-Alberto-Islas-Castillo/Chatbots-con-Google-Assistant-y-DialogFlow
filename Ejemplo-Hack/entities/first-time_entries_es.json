@@ -1,0 +1,21 @@
+[
+  {
+    "value": "Si",
+    "synonyms": [
+      "SI",
+      "yes",
+      "claro",
+      "sip"
+    ]
+  },
+  {
+    "value": "No",
+    "synonyms": [
+      "Nel",
+      "No",
+      "na",
+      "no creo",
+      "no se puede"
+    ]
+  }
+]
